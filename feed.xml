@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>OpsDemyst — AI &amp; Automation Repos</title>
+    <link>https://repos.opsdemyst.com</link>
+    <description>Daily curated AI and automation repositories with stats, trends and expert notes.</description>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 30 May 2026 00:00:00 -0000</lastBuildDate>
+    <ttl>1440</ttl>
+    <atom:link href="https://repos.opsdemyst.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>thepycoach/automation — Other</title>
+      <link>https://repos.opsdemyst.com/?repo=thepycoach_automation</link>
+      <guid>https://repos.opsdemyst.com/?repo=thepycoach_automation</guid>
+      <pubDate>Sat, 30 May 2026 00:00:00 -0000</pubDate>
+      <category>Other</category>
+      <description>Automation with Python (Excel, scripts, etc)
+
+⭐ Stars: 1,083
+🍴 Forks: 528
+📈 Weekly delta: N/A
+
+💬 
+
+🎯 Best for: 
+
+🔗 GitHub: https://github.com/thepycoach/automation</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,62 @@
+{
+  "repos": [
+    {
+      "id": 1,
+      "full_name": "thepycoach/automation",
+      "name": "automation",
+      "description": "Automation with Python (Excel, scripts, etc)",
+      "url": "https://github.com/thepycoach/automation",
+      "language": "Jupyter Notebook",
+      "license": null,
+      "topics": [],
+      "category": "Other",
+      "subcategory": null,
+      "curator_note": "",
+      "use_case": "",
+      "added_on": "2026-05-30",
+      "publish_date": "2026-05-30",
+      "status": "published",
+      "featured": 1,
+      "stars": 1083,
+      "forks": 528,
+      "watchers": 1083,
+      "open_issues": 11,
+      "weekly_delta": null,
+      "monthly_delta": null,
+      "fork_delta": null,
+      "last_fetched": "2026-05-30",
+      "history": [
+        {
+          "date": "2026-05-30",
+          "stars": 1083,
+          "forks": 528,
+          "open_issues": 11,
+          "weekly_delta": null,
+          "monthly_delta": null,
+          "fork_delta": null
+        }
+      ]
+    }
+  ],
+  "changelog": [
+    {
+      "date": "2026-05-30",
+      "full_name": "thepycoach/automation",
+      "type": "added",
+      "note": "Repo added to queue"
+    },
+    {
+      "date": "2026-05-30",
+      "full_name": "thepycoach/automation",
+      "type": "milestone",
+      "note": "1,000 stars"
+    },
+    {
+      "date": "2026-05-30",
+      "full_name": "thepycoach/automation",
+      "type": "published",
+      "note": "Published on site"
+    }
+  ],
+  "exported_at": "2026-05-30"
+}
