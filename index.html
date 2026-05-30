@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI & Automation Repos — OpsDemyst</title>
+    <meta name="description"
+        content="Daily curated AI and automation repositories with stats, trends and expert notes.">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- NAV -->
+    <nav>
+        <div class="logo">Ops<span>Demyst</span> <span class="logo-sub">/ AI Repos</span></div>
+        <div class="nav-links">
+            <a href="#today">Today</a>
+            <a href="#archive">Archive</a>
+            <a href="#changelog">Changelog</a>
+        </div>
+    </nav>
+
+    <!-- AD SLOT TOP -->
+    <div class="ad-banner">
+        <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-XXXXXXXXXXXXXXXX"
+            data-ad-slot="1234567890" data-ad-format="auto" data-full-width-responsive="true"></ins>
+    </div>
+
+    <!-- HERO -->
+    <div class="hero-wrap" id="today">
+        <div class="hero">
+            <div class="hero-label">⚡ Repo of the Day — <span id="hero-date"></span></div>
+            <h1><a id="hero-name" href="#" target="_blank"></a></h1>
+            <div class="hero-meta">
+                <span id="hero-category" class="badge"></span>
+                <span id="hero-language" class="badge badge-lang"></span>
+                <span id="hero-license" class="badge badge-muted"></span>
+            </div>
+            <p class="hero-desc" id="hero-desc"></p>
+
+            <div class="hero-stats">
+                <div class="stat">
+                    <span class="stat-val" id="hero-stars"></span>
+                    <span class="stat-lbl">⭐ Stars</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-val" id="hero-forks"></span>
+                    <span class="stat-lbl">🍴 Forks</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-val" id="hero-issues"></span>
+                    <span class="stat-lbl">🐛 Open Issues</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-val trend-up" id="hero-weekly"></span>
+                    <span class="stat-lbl">📈 This Week</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-val trend-up" id="hero-monthly"></span>
+                    <span class="stat-lbl">📅 This Month</span>
+                </div>
+            </div>
+
+            <div class="curator-box">
+                <div class="curator-label">💬 Curator's Note</div>
+                <p id="hero-note"></p>
+            </div>
+
+            <div class="use-case-box">
+                <span class="use-case-label">🎯 Best for:</span>
+                <span id="hero-usecase"></span>
+            </div>
+
+            <div class="hero-topics" id="hero-topics"></div>
+
+            <div class="hero-charts">
+                <div class="chart-card">
+                    <div class="chart-title">⭐ Star Growth</div>
+                    <canvas id="chart-stars"></canvas>
+                </div>
+                <div class="chart-card">
+                    <div class="chart-title">📈 Weekly Delta</div>
+                    <canvas id="chart-delta"></canvas>
+                </div>
+                <div class="chart-card">
+                    <div class="chart-title">🍴 Fork Growth</div>
+                    <canvas id="chart-forks"></canvas>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- FILTERS -->
+    <div class="filters-wrap">
+        <div class="filters">
+            <input type="text" id="search" placeholder="🔍 Search repos...">
+            <select id="filter-category">
+                <option value="">All Categories</option>
+            </select>
+            <select id="filter-language">
+                <option value="">All Languages</option>
+            </select>
+            <select id="sort-by">
+                <option value="date">Latest First</option>
+                <option value="stars">Most Stars</option>
+                <option value="trending">Trending</option>
+                <option value="forks">Most Forks</option>
+            </select>
+        </div>
+    </div>
+
+    <!-- ARCHIVE -->
+    <div class="section" id="archive">
+        <div class="section-header">
+            <div class="section-title">📦 Archive</div>
+            <div class="section-count" id="archive-count"></div>
+        </div>
+        <div class="grid" id="repo-grid"></div>
+    </div>
+
+    <!-- AD SLOT MID -->
+    <div class="ad-mid">
+        <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-XXXXXXXXXXXXXXXX"
+            data-ad-slot="0987654321" data-ad-format="auto" data-full-width-responsive="true"></ins>
+    </div>
+
+    <!-- CHANGELOG -->
+    <div class="section" id="changelog">
+        <div class="section-title">📋 Changelog</div>
+        <div id="changelog-list"></div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer-inner">
+            <div class="footer-logo">Ops<span>Demyst</span></div>
+            <div class="footer-text">
+                Daily curated AI & Automation repos.<br>
+                Part of <a href="https://opsdemyst.com" target="_blank">OpsDemyst.com</a>
+            </div>
+            <div class="footer-text muted" id="footer-updated"></div>
+        </div>
+    </footer>
+
+    <!-- MODAL -->
+    <div class="modal-overlay" id="modal-overlay">
+        <div class="modal">
+            <button class="modal-close" id="modal-close">✕</button>
+            <div id="modal-content"></div>
+        </div>
+    </div>
+
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+        data-ad-client="ca-pub-XXXXXXXXXXXXXXXX"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
